@@ -52,3 +52,5 @@ poetry shell
 - `images/shap_summary_plot.png`: Gráfico resumen de variables SHAP.
 - `images/shap_dependence_plot_monthly_income.png`: Gráfico de dependencia de SHAP para "monthly_income".
 
+Nota: Se hizo uso de ChatGPT para tareas especificas: correccion de errores y esbozo del README file
+
