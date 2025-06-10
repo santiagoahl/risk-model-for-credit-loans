@@ -40,6 +40,7 @@ Activar el entorno:
 
 ```bash
 poetry shell
+source [path-to-venv]/bin/activate
 ```
 
 ## Cómo correr el proyecto
@@ -47,12 +48,14 @@ poetry shell
 1. Abre el archivo `notebooks/predict_risk.ipynb`.
 2. Ejecuta las celdas paso a paso.
 3. El modelo entrenará una regresión logística y generará gráficos de importancia de variables.
-4. Los gráficos se guardarán automáticamente en la carpeta `images/`.
+4. La tabla de probabilidad default para creditos vigentes se encuentra en `data/risk_probabilities.xlsx`
+5. Los gráficos se guardarán automáticamente en la carpeta `images/`.
 
 ## Archivos importantes generados
 
 - `images/shap_summary_plot.png`: Gráfico resumen de variables SHAP.
 - `images/shap_dependence_plot_monthly_income.png`: Gráfico de dependencia de SHAP para "monthly_income".
+- `data/risk_probabilities.xlsx`: Tabla de probabilidades default para creditos vigentes 
 
 Nota: Se hizo uso de ChatGPT para tareas especificas: correccion de errores y esbozo del README file
 
