@@ -2,6 +2,8 @@
 
 Este proyecto predice la probabilidad de **default** de préstamos utilizando un modelo de **Regresión Logística** y analiza las variables más importantes mediante gráficos **SHAP**.
 
+Resumen Ejecutivo: https://docs.google.com/document/d/12UAflkkXJelxJ99Ocl80dAbyAUPrRQPE2qIczM49gEs/edit?usp=sharing
+
 ## Estructura del Proyecto
 
 ```
